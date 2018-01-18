@@ -53,3 +53,49 @@ Video 4 : download / configure  / user Material Module,
     How to use routing in angular cli
 
     Download sample Material Template
+
+
+Video 5 : Routing
+    Generate components
+    Routing
+
+
+
+
+MatFormField.html:1 ERROR Error: Found the synthetic property @transitionMessages. Please include either "BrowserAnimationsModule" or "NoopAnimationsModule" in your application.
+
+In your app.module.ts file, import BrowserAnimationsModule
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+Also add BrowserAnimationsModule to the imports array
+@NgModule({
+  imports: [
+    BrowserAnimationsModule,
+
+
+-------
+
+I am using angular-4 cli and (ngSubmit) doesn't work. 
+Use (submit) instead of (ngSubmit).
+
+-----
+
+
+Template parse errors:
+Can't bind to 'ngmodel' since it isn't a known property of 'input'. ("at-form-field class="example-full-width">
+                      <input matInput placeholder="Name"  [ERROR ->][(ngmodel)]="name" >
+                    </mat-form-field>
+               </div>
+"): ng:///AppModule/ContactComponent.html@8:58
+Ealier [(ngmodel)]="name" changed to (ng-model)="message"
+
+
+Your global Angular CLI version (1.6.3) is greater than your local
+version (1.6.0). The local Angular CLI version is used.
+
+To disable this warning use "ng set --global warnings.versionMismatch=false".
+
+
+
+Video 6 : Interpolation
+interpolation is used communucate defined in component call show them in template
+2 way databinding
