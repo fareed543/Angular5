@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
   title : string = 'Our Services'; 
-  services : Array =[
+  services : any =[
     {
       id: 1,
       title: 'Service 1',
