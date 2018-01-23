@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import { MatListModule,MatInputModule,MatButtonModule, MatCheckboxModule} from '@angular/material';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   imports: [
+    MatInputModule,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatListModule
   ],
   exports : [
+    MatInputModule ,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatListModule 
   ]
   
 })

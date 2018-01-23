@@ -88,6 +88,8 @@ Video 9 :
     imports: [
         BrowserAnimationsModule,
 
+        
+
     Error:  I am using angular-4 cli and (ngSubmit) doesn't work. 
     Solution : Use (submit) instead of (ngSubmit).
 

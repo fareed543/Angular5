@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { Component } from '@angular/core/src/metadata/directives';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path : 'services',
     component : ServicesComponent
+  },
+  {
+    path : 'contact',
+    component : ContactComponent
   }
 
 ];
